@@ -1,0 +1,13 @@
+bus33.dat
+1Ybus.txt
+2Volt.txt
+3Jaco.txt
+4Inv.txt
+33busLL96.out
+IEEERTS.dat
+Summary33_96.out
+
+
+
+
+

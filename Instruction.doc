@@ -1,0 +1,38 @@
+This is Newton Raphson Load For program for Various Load Level
+
+Two Load Levels are there :
+1.IEEERTS.dat	- 96 hous load profile for each seasons
+2.LDData.dat	- Approximate 5 level load profile from load duration 			  curve from IEEERTS.dat
+
+
+LFAnn.c is the main C file. (LFAnn - Load Flow for Annual Load Variations)
+
+In order the get the different test system output, we have to change the data in Offline.txt file
+
+xx - 33 or 69 bus distribution system
+zz - 96 or 5 load level (96 - from IEEE paper, 5-Approximate Load level) 
+Depends on the load level we have to change the hrs in main program
+
+*********************************************
+Where to change in Offline.txt file
+
+busxx.dat			-- xx represent the bus data
+1Ybus.txt
+2Volt.txt			-- Intermediate steps to cross check or verify
+3Jaco.txt
+4Inv.txt
+xxbusLLzz.out			-- xx represent the bus data and zz represents the loadlevel data
+IEEERTS.dat/ LDData.dat		-- Select 96/5 (any one as load level)	
+Summaryxx_zz.out		-- Which give the summary of this program.
+*********************************************
+
+To run this program in linux
+
+gcc -o anyname LF.c -lm
+./anyname
+
+
+To run this program in windows 
+
+gcc -o anyname LF.c
+anyname
