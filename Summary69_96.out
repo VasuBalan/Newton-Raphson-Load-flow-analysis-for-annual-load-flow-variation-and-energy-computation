@@ -1,0 +1,16 @@
+
+Test System : 69 bus distribution system
+
+Peak load Value are : 
+	Pload = 3801.890000 kW
+	Qload = 2694.100000 kVAr
+
+For 96 hours load profile : 
+
+	Real Power losses : 	8217.094711 kW
+	Reactive Power losses : 	3743.180446 kVArn
+
+For 8760 hous (yearly) load profile : 
+
+	Real Power losses : 	749809.892360 kW
+	Reactive Power losses : 	341565.215671 kVAr
