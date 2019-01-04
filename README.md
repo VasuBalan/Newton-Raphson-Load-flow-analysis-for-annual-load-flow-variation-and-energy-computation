@@ -1,2 +1,5 @@
 # Newton-Raphson-Load-flow-analysis-for-annual-load-flow-variation-and-energy-computation
-This Program computes the annual energy saving for various load variations corresponding to IEEE RTS load variation data.
+This is an simple nwton raphson load for analysis for various distribution system such as 33-bus and 69-bus distribtuion system.
+It computes the load flow analysis for any load level variation. In this work we consider that load variation follow (IEEE RTS) data,
+then computes the annual enegy computation.
+
